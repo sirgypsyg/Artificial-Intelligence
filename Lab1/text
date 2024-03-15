@@ -1,0 +1,146 @@
+//Zadanie 1
+    Które z następujących zadań wymagają w Twojej opinii inteligencji od człowieka:
+
+    Wstęp:
+        W moim rozumieniu inteligencji skupiam sie na mysleniu abstrakcyjnym/kreatywnym,
+        które polega na szukaniu rozwiązań / odpowiedzi lub formulowaniu wniosków z przekazu,
+        które nie są szablonowe/istnieje jakiś ściśły wzór rozwiązywanie 
+        lub jest tylko jedna prawidłowa odpowiedz.
+        
+    • wypełnianie deklaracji PIT:
+        - Nie uwazam ze wymaga to inteligencji od człowieka z racji ze sa scisle 
+        reguły rozwiązywania takiego 'formularza' dla roznych przypadkow, jedynie co sie rozni 
+        w juz gowtych formularzach sa dane.
+    • streszczanie tekstu,
+        - Uważam że poniekąd tak, ponieważ wymaga to zrozumienia tekstu i wyciągnięciu najważniejszych informacji - które nie 
+        zawsze muszą być oczywiste. 
+    • tłumaczenie tekstu,
+        - Nie, jest to podstawowe korzystanie ze słownika aby zrozumieć przekaz.
+    • klasyfikacja tekstu do kategorii tematycznych,
+        Aby móc poprawnie klasyfikowac tekst, trzeba znać katetorgie - do których chcemy go przydzielić.
+        Więc niekonkretnie intelekt a wiedza.
+    • odpowiadanie na proste pytania zadawane w języku naturalnym (np. polskim),
+        - Nie, jedynie co jest potrzebne to zrozumienie treści.
+    • układanie rozkładu jazdy transportu miejskiego,
+        - Myślę ze nie, przy odpowiednim algorytmie i odpowiednich danych jest
+        możliwość optymalnego rozwiązania tego problemu.
+    • programowanie (pisanie programów komputerowych),
+        - Odpowiednie zacisniając perspektywe nie wymaga to głębszej inteligencji, zakładając ze robimy
+        szablonowe rozwiązanie jak np. napisanie strony internetowej której sposoby napisanie są juz dawno temu znane.
+        - Uważam jednak, że znajdowanie analogii ze wczesniejszej zdobytej wiedzy np. algorytmicznej w swiecie codziennym
+        jest już jakąś forma inteligencji - patrzenie na byty i znajdowanie/szukaniu analogii między nimi.
+    • testowanie oprogramowania,
+        - Uważam ze nie wymaga inteligencji aktualnie, tzn szukamy jakichkkolwiek nieprzewidzialnych wczesniej przez 
+        programiste form zachowania. Forma zautomatyzowania moze robić losowe zachowania na które początkowo tester mógłby nie wpaść
+        aby wywołać błąd.
+    • komponowanie muzyki,
+        -Od różnych gatunków muzyki po różne użyte instrumenty, uczucia, kreatywność, forme. Za dużo jest składowych i  
+        abstrakcyjnego myślenia żeby nie sklasyfikować tego w jednej z wielu form inteligencji jak inteligencji muzycznej.
+    • rozwiązywanie układów równań,
+        -Uważam że jest to schematyczne i po wczesniejszym poznaniu zasad i schematu rozwiązywania - nie powinno stanowić
+        jakiekolwiek wyzwania intelektualnego.
+    • symboliczne obliczanie pochodnych funkcji,
+        -Uważam że jest to schematyczne i po wczesniejszym poznaniu zasad i schematu rozwiązywania - nie powinno stanowić
+        jakiekolwiek wyzwania intelektualnego.
+    • symboliczne całkowanie funkcji,
+        -Uważam że jest to schematyczne i po wczesniejszym poznaniu zasad i schematu rozwiązywania - nie powinno stanowić
+        jakiekolwiek wyzwania intelektualnego.
+    • kierowanie samochodem.
+        -Jeżeli rozważamy samo 'kierowanie' samochodem to nie jest to trudna umiejętność.
+
+
+//Zadanie 2
+    Które z następujących problemów można uznać za mieszczące się w zakresie sztucznej
+    inteligencji:
+    • streszczanie tekstu, 
+    • tłumaczenie tekstu,  
+    • klasyfikacja tekstu do kategorii tematycznych,
+    • odpowiadanie na proste pytania zadawane w języku naturalnym,
+    • rozwiązywanie układów równań,
+    • układanie rozkładu jazdy,
+    • rozwiązywanie układów równań liniowych,
+    • symboliczne obliczanie pochodnych,
+    • symboliczne całkowanie,
+    • kierowanie samochodem.
+
+    Ze wszystkich powyżej ai sobie bardzo dobrze radzi.
+
+//Zadanie 3
+    Które z poniższych rodzajów komunikacyjnego zachowania człowieka mogą być
+    obecnie skutecznie imitowane przez sztuczne systemy (odpowiednio oprogramowane
+    maszyny):
+    • rozmowa towarzyska:
+        chatGpt
+    • dyskusja polityczna,
+        chatGpt
+    • dyskusja naukowa,
+        chatGpt
+    • odpowiadanie na pytania klientów w telefonicznej infolinii:
+        chatGpt
+    • odpowiadanie na pytania klientów w internetowej infolinii
+        ikea.com.pl
+
+Zadanie 4
+    Do zadań skorzystaj z załączonej listy Chatbotów (Chatterbotów) lub znajdź własne.
+
+    1. Przeprowadź rozmowę z chatbotem. Spróbuj zdefiniować różnice pomiędzy
+    botem udającym człowieka (przygotowywanym na test Turinga) a botem
+    „asystentem, służącym”.
+
+    -Bot 'przygotowywany' na test Turinga będie imitował człowieka , kłamał np. na pytanie 
+    co dzisiaj robił powie że był w bibliotece - interakcja z nim będzie starała się
+    jak najbardziej zbliżyć się jak do prawdziwej ludzkiej interakcji.
+
+    -Bot asystent, nakreśli że jest tutaj żeby nam pomóc, spełnic wszystkie żądania które może,
+    bądź został zaprogramowany żeby mógł. Interakcja z nim może przypominać interakcje z drugim 
+    człowiekiem ale nie jest to jego głowny cel.
+
+
+    2. Sprawdź dwa boty z obu z tych rodzajów na występowanie zachowań:
+        a) opowiadanie żartów, ✅
+        b) przytaczanie cytatów z twoich wypowiedzi, lub znanych osób,  ✅
+        c) nawiązywanie wypowiedzi do słów kluczowych, ✅
+        d) zadawanie dużej liczby pytań,  ✅
+        e) powracanie do początku wypowiedzi, sekwencyjne powtarzanie,  ✅
+        f) zadawanie pytań powstających z twoich wypowiedzi,✅
+        g) odpowiadanie wymijająco, ogólnikowo,✅
+        h) częsta zmiana tematu rozmowy,✅
+        i) problemy z utrzymaniem wątków.✅
+    3. Sporządź raport ze spostrzeżeń.
+        Bot udający człowieka (Test Turinga) zwykle prezentuje żarty w sposób bardziej naturalny, uwzględniając 
+        kontekst i intonację, podobnie jak prawdziwy rozmówca. Może zadawać więcej pytań w trakcie rozmowy, próbując 
+        naśladować ludzką interakcję. Ponadto może czasem stosować taktykę wymijania, ale jego odpowiedzi są zazwyczaj 
+        bardziej zróżnicowane i kontekstowe.
+
+        Asystent służący, z drugiej strony, może być bardziej precyzyjny w swoich odpowiedziach, ograniczając 
+        liczbę pytań do tych, które są niezbędne do zrozumienia potrzeb użytkownika. Ma również większą zdolność 
+        do nawiązywania do słów kluczowych i utrzymania spójności wątku rozmowy. Jednak jego żarty i cytaty 
+        mogą być prezentowane w sposób bardziej schematyczny, z wykorzystaniem bazy danych.
+
+        Boty różnią się w podejściu do interakcji z użytkownikiem, z botem udającym człowieka bardziej skupionym na imitacji ludzkiej rozmowy,
+        a asystentem służącym bardziej skoncentrowanym na dostarczaniu konkretnych informacji i rozwiązaniach problemów.
+
+    4. Na podstawie powyższych obserwacji, w grupie dwóch osób spróbujcie prze-
+    widzieć zachowania dwóch rozmawiających ze sobą chatbotów (przepisując ich
+    wzajemne odpowiedzi).
+        Prawde mówiąc wygladało to jak rozmowa - w której jeden bot wcielil sie w role sluchacza zas drugi opowiadal o 
+        'interesujacych' go watkach.
+
+    5. Zdenerwuj bota 😊😊
+        cięzko...
+
+Lista startowa chatbotów:
+• cleverbot.com - nie dziala
+• www.chatbot4u.com - nie dziala
+• www.chatbot.pl - bardzo glupi
+• douweosinga.com - to sa jakies projekty
+• apps.facebook.com/luxoft_avatar - nie dziala
+• chatterboty.pl - nie dziala
+• ikea.com.pl (zapytaj Anię) - dzial ok
+• www.chatbots.org - serwis rankingowy chatbotow
+• www.snikers.pl
+• www.personalityforge.com (hall of fame)
+• www.ecreation.pl
+• wellbot.tk
+• www.inguaris.pl
+• tremo.algit.pl

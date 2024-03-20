@@ -1,0 +1,49 @@
+% Student exercise profile
+:- set_prolog_flag(occurs_check, error).        % disallow cyclic terms
+:- set_prolog_stack(global, limit(8 000 000)).  % limit term space (8Mb)
+:- set_prolog_stack(local,  limit(2 000 000)).  % limit environment space
+
+% Your program goes here
+
+woman(ania, gosia, ania).
+man(ryan, ron, jakub).
+
+lubi(jan, pawel). lubi(pawel, krzysztof).
+lubi(pawel, jan). lubi(jan, bartek). lubi(bartek, jan).
+lubi(marek, darek). lubi(darek, marek).
+lubi(kuba, arek).
+
+przyjazn(X, Y) :-
+lubi(X,Y),
+lubi(Y,X).
+
+niby_przyjazn(X,Y) :-
+lubi(X,Y) ;
+lubi(Y,x).
+
+nieprzyjazn(X,Y) :-
+    \+przyjazn(X, Y).
+
+loves(X,Y) :-
+    przyjazn(X, Y),
+       (   nieprzyjazn((X, Z), Z \= Y),	nieprzyjazn((Z, Y), Z \= X) ).
+	
+
+
+
+
+
+
+/**Zapisz reguły dla:
+nieprzyjazn(X,Y),
+niby_przyjazn(X,Y)
+loves(X,Y)	 1) może być na zasadzie wzajemności i wyłączności 
+			2) dodaj fakt płeć
+true_love(X,Y)
+
+jeśli	:-
+and	,
+or	;
+not	 
+\+
+*/

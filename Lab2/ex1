@@ -5,36 +5,42 @@
 
 % Your program goes here
 
-woman(ania, gosia, ania).
-man(ryan, ron, jakub).
+
+
 
 lubi(jan, pawel). lubi(pawel, krzysztof).
 lubi(pawel, jan). lubi(jan, bartek). lubi(bartek, jan).
+
 lubi(marek, darek). lubi(darek, marek).
-lubi(kuba, arek).
+lubi(marek, arek). lubi(arek, marek).
+
+male(marek).
+female(darek).
+
 
 przyjazn(X, Y) :-
 lubi(X,Y),
 lubi(Y,X).
 
 niby_przyjazn(X,Y) :-
-lubi(X,Y) ;
-lubi(Y,x).
+	((lubi(X, Y), \+ lubi(Y, X))
+    ;   
+    (lubi(Y, X), \+ lubi(X, Y))).
 
 nieprzyjazn(X,Y) :-
     \+przyjazn(X, Y).
-
+	
 loves(X,Y) :-
     przyjazn(X, Y),
-       (   nieprzyjazn((X, Z), Z \= Y),	nieprzyjazn((Z, Y), Z \= X) ).
-	
+       (nieprzyjazn((X, Z), Z \= Y), nieprzyjazn((W, Y), W \= X) ).
 
-
-
-
+true_love(X,Y) :-
+    loves(X,Y),
+   	(   (   male(X), female(Y)) ; (   female(X), male(Y))).
 
 
 /**Zapisz reguły dla:
+ * lubi(jan,X) :- alkohol(X).
 nieprzyjazn(X,Y),
 niby_przyjazn(X,Y)
 loves(X,Y)	 1) może być na zasadzie wzajemności i wyłączności 
@@ -44,8 +50,7 @@ true_love(X,Y)
 jeśli	:-
 and	,
 or	;
-not	 
-\+
-*/
+not	 \+
+!=	*/
 
 

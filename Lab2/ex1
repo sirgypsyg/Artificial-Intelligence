@@ -32,9 +32,10 @@ nieprzyjazn(X,Y) :-
 	
 loves(X,Y) :-
     przyjazn(X, Y),
-       (nieprzyjazn((X, Z), Z \= Y), nieprzyjazn((W, Y), W \= X) ).
+       \+(lubi((X, Z), Z \= Y),
+       \+(lubi((W, Y), W \= X).
 
-true_love(X,Y) :-
+true_love(X,Y) :-klmty
     loves(X,Y),
    	(   (   male(X), female(Y)) ; (   female(X), male(Y))).
 

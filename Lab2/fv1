@@ -1,0 +1,36 @@
+
+%1
+% Student exercise profile
+:- set_prolog_flag(occurs_check, error).        % disallow cyclic terms
+:- set_prolog_stack(global, limit(8 000 000)).  % limit term space (8Mb)
+:- set_prolog_stack(local,  limit(2 000 000)).  % limit environment space
+
+% Your program goes here
+
+%base
+human(marcus).
+pompeii(marcus).
+emperor(caesar).
+
+roman(X) :-
+    pompeii(X),
+	(loyal(X, caesar) ; hate(X, caesar)).
+
+loyal(_ , _).
+hate(_ , _).
+
+assasin(X) :-
+    hate(X, caesar);
+    \+(loyal(X, caesar) ; hate(X, caesar)). //chodzi o to ze dokona zamachu jesli maarcus bedzie nienawidzil
+                                            //cezara lub jesli wartosci loyal i hate beda domysle 1 (nieustawione)
+    
+
+/* Posługując się powyższymi predykatami spróbuj odpowiedzieć na pytanie, czy
+Markus był lojalny wobec Cezara.
+
+	Nie, bo jeśli próbował zabic cezara oznaczało to że musiał nie być
+    wobec niego lojalny.
+*/
+
+
+//2

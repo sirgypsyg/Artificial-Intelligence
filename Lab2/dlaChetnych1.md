@@ -105,3 +105,49 @@ d) Spróbuj (metodą rezolucji) odpowiedzieć na pytanie, jakie pożywienie je B
     zje(Basia, orzeszki) , który negujemy ¬zje(Basia, orzeszki)
  
     zje(Basia, orzeszki) //rezolucja z 5b. i 6
+
+
+
+***Zadanie 3***
+
+czlowiek(x)
+pompejczyk(x)
+urodzony(x, y)
+wybuch(x, y)
+umarl(x)
+żyje(x)
+wieksze(t1, t2).
+
+
+1. Urodzony(Markus, 40).
+2. Pompejczyk(markus).
+3. ∀x (Wybuch(Pompeje, 79) → Umarł(x, 79))
+4. ∀x ∀t1 ∀t2 (Urodzony(x, t1) ∧ większe(t2 - t1,150) → ¬żyje(x))
+5. ∀x umarl(x) → ¬żyje(x)
+6. wybuch(Wezuwiusz,79)
+
+
+do CNF
+
+1. Urodzony(Markus, 40).
+3. ¬Wybuch(Pompeje, 79) ∨ Umarł(x, 79)
+4. ¬Urodzony(x, y) ∨ ¬większe(t2 - t1,150) ∨ ¬żyje(x)
+5. ¬umarl(x) ∨ ¬żyje(x)
+6. wybuch(Wezuwiusz,79)
+
+1//
+//zakładamy że nie żyje  -> ¬żyje(markus).
+7. żyje(markus) //negujemy dowód.
+8. ¬umarl(markus)     //rezolucja z (5.) i (6.).
+9. ¬Wybuch(Pompeje, 79)  // rezolucja z (7.) i (3.).
+10. []   // rezolucja z (9.) i (6.).
+PRAWDA - umarł w wybuchu
+
+
+2//
+//zakładamy że jest rok(2021) i nie żyje -> ¬żyje(markus).
+7a. żyje(markus) //negujemy dowód.
+8a. ¬większe(t2 - 40,150) ∨ ¬żyje(markus)   // rezolucja (1.) i (4)
+9a. ¬żyje(markus)   // rezolucja (8a.) i (rok(2021))
+10a.  []  // rezolucja (9z.) i z (7a.)
+PRAWDA - nie mógł żyć dłuzej niż 150 lat
